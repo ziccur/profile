@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400&display=swap');
+
+body{
+    background: #FC5C7D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    width: 90%;
+    background-color: white;
+    border-radius: 35px;
+    text-align: center;
+
+}
+
+#profile_photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; /* PARA QUE NO SE DEFORME LA IMAGEN*/
+}

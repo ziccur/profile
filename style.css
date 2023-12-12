@@ -1,25 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 body{
     background: #FC5C7D;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    font-family: 'Lexend', sans-serif;
+    /*font-family: 'Lexend', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: center;
 }
 
 #content {
-    width: 90%;
+    margin-top: 10vh;
+    width: 75vw;
     background-color: white;
     border-radius: 35px;
     text-align: center;
-
+    border: 2px solid #fff;
 }
 
 #profile_photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');   border-radius: 50%;
     object-fit: cover; /* PARA QUE NO SE DEFORME LA IMAGEN*/
+    margin-right: 4vw;
+    margin-top: 2vh;
+}
+
+#profile_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Espacio entre la sección del perfil y el resto del contenido */
+    margin-top: 2vh;
+}
+
+#principal_title{
+    margin-bottom: 2vh;
+    margin-top: 1.2vh;
+    font-size: 4vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#principal_subtitle { /* ESTIUDIOS ACTUAL */
+    margin-top: 0;
+    font-size: 2vw;
+}
+
+#principal {
+    text-align: left;
+}
+
+
+/* Media query para dispositivos móviles */
+@media (max-width: 600px) {
+    #profile_photo {
+        width: 150px;
+        height: 150px;
+    }
 }

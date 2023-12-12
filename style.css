@@ -69,7 +69,21 @@ body{
 
 #locate_title {
     margin-left: 10px; /* Ajusta el espacio entre el icono y el texto según tus preferencias */
+    margin-bottom: 1.5vh;
 }
+
+#barra {
+    width: 20%; /* Ajusta el ancho de la barra según tus preferencias */
+    height: 3px; /* Ajusta la altura de la barra según tus preferencias */
+    background-color: #65606460; /* Ajusta el color de fondo de la barra según tus preferencias */
+    margin: 0 auto; /* Centra el div horizontalmente */
+    border-radius: 20%;
+}
+
+#about_title{
+    margin-bottom: 0;
+}
+
 
 
 /* Media query para dispositivos móviles */
@@ -77,6 +91,7 @@ body{
     #profile_photo {
         width: 150px;
         height: 150px;
+        margin-left: 1.5vw;
     }
     #principal_title{
         font-size: 4.5vw;
@@ -84,5 +99,9 @@ body{
     
     #principal_subtitle{
         font-size: 3.5vw;
+    }
+
+    #barra {
+        width: 50%; /* Ajusta el ancho de la barra según tus preferencias */
     }
 }

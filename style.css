@@ -21,12 +21,12 @@ body{
 }
 
 #profile_photo {
-    width: 190px;
-    height: 190px;
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');   border-radius: 50%;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
     object-fit: cover; /* PARA QUE NO SE DEFORME LA IMAGEN*/
     margin-right: 4vw;
-    margin-top: 2vh;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Agrega una sombra negra difuminada */
 }
 
 #profile_section {
@@ -35,6 +35,7 @@ body{
     justify-content: center;
     margin-bottom: 20px; /* Espacio entre la sección del perfil y el resto del contenido */
     margin-top: 2vh;
+    margin-bottom: 0;
 }
 
 #principal_title{
@@ -47,10 +48,27 @@ body{
 #principal_subtitle { /* ESTIUDIOS ACTUAL */
     margin-top: 0;
     font-size: 2vw;
+    margin-bottom: 0;
 }
 
 #principal {
     text-align: left;
+}
+
+#locate {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos dentro de #locate */
+    justify-content: center;
+}
+
+#locate_icon {
+    width: 24px; /* Ajusta el tamaño del icono según tus preferencias */
+    height: 24px;
+    vertical-align: middle; /* Alinea verticalmente el icono con respecto al texto */
+}
+
+#locate_title {
+    margin-left: 10px; /* Ajusta el espacio entre el icono y el texto según tus preferencias */
 }
 
 
@@ -59,5 +77,12 @@ body{
     #profile_photo {
         width: 150px;
         height: 150px;
+    }
+    #principal_title{
+        font-size: 4.5vw;
+    }
+    
+    #principal_subtitle{
+        font-size: 3.5vw;
     }
 }

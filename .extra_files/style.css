@@ -1,6 +1,17 @@
+/**************** FONTS by: Google Fonts ****************/
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* Montserrat */@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/**************** Root colors ****************/
+
+:root {
+    --color-separator: #65606460;
+    --background_content: #fff;
+}
+  
+
+/**************** Code ****************/
+
 body{
     background: #FC5C7D;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
@@ -15,10 +26,10 @@ body{
     margin-top: 10vh;
     width: 75vw;
     height: 80vh;
-    background-color: white;
+    background-color: var(--background_content);
     border-radius: 35px;
     text-align: center;
-    border: 2px solid #fff;
+    border: 2px solid var(--background_content);
 }
 
 #profile_photo {
@@ -39,17 +50,18 @@ body{
     margin-bottom: 0;
 }
 
-#principal_title{
+#name{
     margin-bottom: 2vh;
     margin-top: 1.2vh;
     font-size: 4vw;
     font-family: 'Montserrat', sans-serif;
 }
 
-#principal_subtitle { /* ESTIUDIOS ACTUAL */
+#grade { /* ESTIUDIOS ACTUAL */
     margin-top: 0;
     font-size: 2vw;
     margin-bottom: 0;
+    max-width: 80vh;
 }
 
 #principal {
@@ -69,20 +81,20 @@ body{
     margin-right: 0;
 }
 
-#locate_title {
+#location {
     margin-left: 2px; /* Ajusta el espacio entre el icono y el texto según tus preferencias */
     margin-bottom: 2vh;
 }
 
-#barra {
-    width: 20%; /* Ajusta el ancho de la barra según tus preferencias */
-    height: 3px; /* Ajusta la altura de la barra según tus preferencias */
-    background-color: #65606460; /* Ajusta el color de fondo de la barra según tus preferencias */
+#separator {
+    width: 20%; /* Ajusta el ancho de la separator según tus preferencias */
+    height: 3px; /* Ajusta la altura de la separator según tus preferencias */
+    background-color: var(--color-separator); /* Ajusta el color de fondo de la separator según tus preferencias */
     margin: 0 auto; /* Centra el div horizontalmente */
     border-radius: 20%;
 }
 
-#about_title{
+#title1{
     margin-bottom: 0;
 }
 
@@ -100,11 +112,11 @@ body{
         height: 150px;
         margin-left: 1.5vw;
     }
-    #principal_title{
+    #name{
         font-size: 4.5vw;
     }
     
-    #principal_subtitle{
+    #grade{
         font-size: 3.5vw;
     }
 
@@ -112,7 +124,7 @@ body{
         width: 90vw;
     }
 
-    #barra {
-        width: 50%; /* Ajusta el ancho de la barra según tus preferencias */
+    #separator {
+        width: 50%; /* Ajusta el ancho de la separator según tus preferencias */
     }
 }

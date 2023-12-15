@@ -14,6 +14,7 @@ body{
 #content {
     margin-top: 10vh;
     width: 75vw;
+    height: 80vh;
     background-color: white;
     border-radius: 35px;
     text-align: center;
@@ -65,11 +66,12 @@ body{
     width: 24px; /* Ajusta el tamaño del icono según tus preferencias */
     height: 24px;
     vertical-align: middle; /* Alinea verticalmente el icono con respecto al texto */
+    margin-right: 0;
 }
 
 #locate_title {
-    margin-left: 10px; /* Ajusta el espacio entre el icono y el texto según tus preferencias */
-    margin-bottom: 1.5vh;
+    margin-left: 2px; /* Ajusta el espacio entre el icono y el texto según tus preferencias */
+    margin-bottom: 2vh;
 }
 
 #barra {
@@ -84,9 +86,14 @@ body{
     margin-bottom: 0;
 }
 
+.texto {
+    width: 90%;
+    margin: 2vh auto;
+}
 
 
 /* Media query para dispositivos móviles */
+
 @media (max-width: 600px) {
     #profile_photo {
         width: 150px;
@@ -99,6 +106,10 @@ body{
     
     #principal_subtitle{
         font-size: 3.5vw;
+    }
+
+    #content{
+        width: 90vw;
     }
 
     #barra {

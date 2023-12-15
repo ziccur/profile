@@ -3,11 +3,9 @@
   <br>
   <img src="https://media.discordapp.net/attachments/1171169548054036501/1185294079588847626/b33d7c5b-a483-4f55-8d32-deb1ba2b4659-removebg-preview.png?ex=658f1622&is=657ca122&hm=4a12c78da321462529c8fe08d782fca4f7968e34e5343a8e252135cce097c0b3&=&format=webp&quality=lossless" alt="Logo" width="200">
   <br>
-  About me page Configurable
+  PROFILE WEB MAKER
   <br>
 </h1>
-
-<h4 align="center">A minimal Markdown Editor desktop app built on top of <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
 
 <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">

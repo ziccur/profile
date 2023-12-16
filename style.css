@@ -103,6 +103,35 @@ body{
     margin: 2vh auto;
 }
 
+#studies1, #studies2{
+    display: flex;
+    align-items: top;
+    justify-content: left;
+}
+
+.year{
+    text-align: right;
+    max-width: 10vw;
+    margin-left: 12vw;
+}
+
+#studies1_details > a, #title_studies1,  #title_studies2, #studies2_details > a{
+    width: 50vw;
+    text-align: left;
+}
+
+#studies1_details > a, #institution_studies1 , #institution_studies2, #studies2_details > a{
+    color: black;
+    margin-top: 1.2vh;
+    font-style: italic;
+}
+
+#title_studies1, #title_studies2{
+    margin-top: 0.6vh;
+    margin-left: 2vw;
+    margin-bottom: 0;
+
+}
 
 /* Media query para dispositivos móviles */
 

@@ -25,7 +25,7 @@ body{
 #content {
     margin-top: 10vh;
     width: 75vw;
-    height: 80vh;
+    height: 100%;
     background-color: var(--background_content);
     border-radius: 35px;
     text-align: center;
@@ -103,35 +103,70 @@ body{
     margin: 2vh auto;
 }
 
-#studies1, #studies2{
-    display: flex;
-    align-items: top;
-    justify-content: left;
-}
 
-.year{
-    text-align: right;
-    max-width: 10vw;
-    margin-left: 12vw;
-}
+  /* STUDIES */
 
-#studies1_details > a, #title_studies1,  #title_studies2, #studies2_details > a{
-    width: 50vw;
+  #studies_id{
     text-align: left;
-}
+    margin-left: 20vw;
+  }
 
-#studies1_details > a, #institution_studies1 , #institution_studies2, #studies2_details > a{
-    color: black;
-    margin-top: 1.2vh;
-    font-style: italic;
-}
+  .studies-timeline {
+    margin-top: 1.5vh;
+    position: relative;
+    }
+    .studies-timeline:after {
+    background: linear-gradient(to top, rgba(134, 214, 243, 0) 0%, #516acc 100%);
+    content: "";
+    left: 42px;
+    width: 2px;
+    top: 0;
+    height: 100%;
+    position: absolute;
+    content: "";
+    }
+    .studies-item {
+    position: relative;
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    z-index: 1;
+    }
+    .studies-item:last-child {
+    padding-bottom: 5px;
+    }
+    .studies-item:after {
+    content: attr(data-year);
+    width: 10px;
+    position: absolute;
+    top: 0;
+    left: 34px;
+    width: 13px;
+    height: 13px;
+    line-height: 0.6;
+    border: 2px solid #fff;
+    font-size: 1vw;
+    text-indent: -50px;
+    border-radius: 50%;
+    color: #000;
+    background: linear-gradient(to bottom, rgb(0, 27, 125) 0%, #0033ff 100%);
+    }
+    .studies-item-title {
+    font-weight: 500;
+    font-size: 1.2vw;
+    margin-bottom: 5px;
+    }
+    .studies-item-desc {
+    font-size: 1vw;
+    color: #6f6f7b;
+    line-height: 1.5;
+    font-family: "DM Sans", sans-serif;
+    }
 
-#title_studies1, #title_studies2{
-    margin-top: 0.6vh;
-    margin-left: 2vw;
-    margin-bottom: 0;
+    .studies-item-desc > a {
+        color: #474751;
+      }
 
-}
 
 /* Media query para dispositivos móviles */
 

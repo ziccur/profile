@@ -1,0 +1,34 @@
+{
+    "personal_data": {
+      "name": "Yeray Reyes Ocón",
+      "grade": "Estudiante CFGS de Programación",
+      "location": "Barcelona (España)",
+      "profile_photo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn-images.livecareer.es%2Fpages%2Ffoto_cv_lc_es_7.jpg&f=1&nofb=1&ipt=b97d5904f0c28446d218cfd7108372b7c23fd4b404b2b985a77548bf4a5d98aa&ipo=images"
+    },
+
+
+    "about_you": {
+        "title1": "🚀 Un poco sobre mi",
+        "title1_description": "Soy un joven de 18 años con una apasionada dedicación a la informática y la programación. Mi entusiasmo se refleja en mi habilidad para trabajar en equipo y en mi constante búsqueda de nuevos conocimientos. Desde mi infancia, mi interés por la informática ha sido evidente y ha evolucionado en una verdadera pasión. Mi deseo es seguir aprendiendo y creciendo en este fascinante campo, contribuyendo con mi entusiasmo y habilidades a nuevos proyectos.",
+  
+        "studies_title": "🎓 Estudios",
+        "year_studies1": "2023 - actualmente",
+        "title_studies1": "Grado Superior Desarrollo de Aplicaciones Multiplatadorma",
+        "institution_studies1": "Institut TIC de Barcelona",
+        "studies1_link": "https://agora.xtec.cat/iticbcn/",
+        "year_studies2": "2022 - 2023",
+        "title_studies2": "Grado Superior Desarrollo de Aplicaciones Multiplatadorma",
+        "institution_studies2": "Institut TIC de Barcelona",
+        "studies2_link": "https://agora.xtec.cat/iticbcn/"
+    },
+
+
+    "colors": {
+      "separator_color": "",
+      "background_content_color": ""
+    }
+
+  }
+
+
+    
